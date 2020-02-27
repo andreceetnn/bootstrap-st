@@ -21,8 +21,8 @@ section {
     padding-top: 15%;
     align-items: center;
     flex-direction: column;
-    padding: 40px;
-    min-height: 400px;
+    padding: 20px;
+    min-height: 200px;
 }
 
 :root {
@@ -39,6 +39,7 @@ section {
 
 .red {
     color: var(--red);
+    /* align-items: center; */
 }
 
 .btn-primary {
@@ -56,22 +57,37 @@ section {
     background-image: url(img/banner.jpg);
     display: flex;
     justify-content: center;
+    min-height: 600px;
 }
 
-#fourth>.container>p:nth-last-of-type(1) {
+
+/* #fourth>.container>p:nth-last-of-type(1) {
     font-size: 25px;
     margin-bottom: 30px;
+} */
+
+#fourth {
+    align-items: center;
 }
 
 form {
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 50px;
 }
 
 footer {
     text-align: center;
 }
 
+.typewrite {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/* 
 .row {
     padding: 25px;
-}
+} */
